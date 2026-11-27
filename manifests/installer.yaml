@@ -1,0 +1,11 @@
+# Installer manifest - stays in YOUR repository.
+# Its raw URL goes into InstallerManifestUrl of addon.yaml.
+# Add a new entry at the top of Packages for every release.
+AddonId: PlaytimeLock_35892ff4-9120-4f10-93a2-59d76b742244
+Packages:
+  - Version: 1.0
+    RequiredApiVersion: 6.11.0
+    ReleaseDate: 2026-11-27
+    PackageUrl: https://github.com/limonatam/PlaytimeLock/releases/download/v1.0/PlaytimeLock_35892ff4-9120-4f10-93a2-59d76b742244_1_0.pext
+    Changelog:
+      - Initial release

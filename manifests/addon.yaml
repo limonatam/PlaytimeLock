@@ -1,0 +1,16 @@
+# Add-on manifest - submit this file with a pull request to
+# https://github.com/JosefNemec/PlayniteAddonDatabase (folder: addons/generic)
+AddonId: PlaytimeLock_35892ff4-9120-4f10-93a2-59d76b742244
+Type: Generic
+Name: PlaytimeLock
+Author: Ataberk
+ShortDescription: 'Stops library updates from resetting the playtime of games you played offline. Right-click a game to lock its playtime.'
+Description: |
+  - Lock a game's playtime so library updates can't lower it (e.g. a store reporting 0 for games played offline).
+  - Right-click a game → "Lock playtime..." and enter the playtime to keep.
+  - Playtime tracked by Playnite and higher store values are still accepted.
+  - Works silently, no notifications. Optional "Playtime Locked" tag for filtering.
+IconUrl: https://raw.githubusercontent.com/limonatam/PlaytimeLock/main/src/icon.png
+InstallerManifestUrl: https://raw.githubusercontent.com/limonatam/PlaytimeLock/main/manifests/installer.yaml
+SourceUrl: https://github.com/limonatam/PlaytimeLock
+Tags: ['playtime', 'library', 'steam', 'xbox', 'offline', 'utility']
